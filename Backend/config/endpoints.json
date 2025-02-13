@@ -1,0 +1,8 @@
+{
+    "jenkins_url": "http://10.70.46.85:8080/",
+    "jobs_endpoint": "/api/json?tree=jobs[name]",
+    "build_endpoint": "/job/{job_name}/build",
+    "last_build_summary": "/job/{job_name}/lastBuild/api/json",
+    "specific_build_summary": "/job/{job_name}/{build_number}/api/json",
+    "job_health": "/job/{job_name}/api/json"
+}
